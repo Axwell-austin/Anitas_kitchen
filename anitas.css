@@ -23,6 +23,7 @@ background-repeat: no-repeat;
 p{
     color: white;
     text-align: center;
+    font-weight: 100;
 }
 /*to remove*/
 div{
@@ -35,6 +36,9 @@ div{
 #happy_moments{
     width: 25%;
     flex-direction: column;
+}
+#happy_moments p{
+    color: black;
 }
 #breakfast{
     width: 25%;
@@ -52,11 +56,13 @@ div{
     background-image: url(./img/dinner.jpg);
     background-size: cover;
 }
-.happy hour{
-    background-color: blanchedalmond;
+.happy-hour{
+    background-color: rgb(212, 210, 207);
+    height: 100px;    
 }
 .party-time{
 background-color: rgb(240, 81, 8);
+height: 100px;
 }
 /*to remove*/
 div{
@@ -64,21 +70,36 @@ div{
 }
 #yummy_section{
     display: flex;
-    padding: 5%;
+    padding:5%;
+    margin-left: 200px;
 }
 .yum-1{
-    width: 50%;
-    background-size: cover;
+    border: 20px solid rgb(255, 253, 253);
+    box-shadow: 2px 2px 5px grey
 }
 #fast-food-notes{
-   margin-left: 50px; 
-   width: 30%;
+padding-left: 5%;
+margin-right:15%;
+
 
 }
-#dinner p, #lunch p,#breakfast p{
-    font-size: 1em;
-    position: absolute;
-    padding-top: 45px;
-    margin-left: 130px;
+h2{
+    font-weight: 50;
 }
-   
+h3{
+font-weight: 50;
+font-size: 90%;
+}
+h4{
+    color: rgb(250, 95, 24);
+    font-weight: 100;
+    border: 1px solid rgb(240, 81, 8);
+    padding-right: 30px;
+}
+#_gallery p{
+    color: #f15a29;
+    font-weight: 700;
+}
+._tag{
+    font-size: xx-large;
+}
