@@ -1,0 +1,84 @@
+#top{background-image: url('img/background\ top\ page.jpg');
+height:400px;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.nav div{
+    height: 2px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 25px;
+}
+.nav{
+    width: 40px;
+   display: block;
+   margin-left: 50px;
+}
+#top img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    color: white;
+    text-align: center;
+}
+/*to remove*/
+div{
+    border: 1px dashed green;
+}
+#middle{
+    display: flex;
+    height: 200px;
+}
+#happy_moments{
+    width: 25%;
+    flex-direction: column;
+}
+#breakfast{
+    width: 25%;
+    background-image:url(./img/breakfast.jpg);
+    background-size: cover;
+}
+#Lunch{
+    width: 25%;
+    background-image: url(./img/lunch.jpg);
+    background-size: cover;
+    opacity: 0.5;
+}
+#Dinner{
+    width: 25%;
+    background-image: url(./img/dinner.jpg);
+    background-size: cover;
+}
+.happy hour{
+    background-color: blanchedalmond;
+}
+.party-time{
+background-color: rgb(240, 81, 8);
+}
+/*to remove*/
+div{
+    border: 1px dashed green;
+}
+#yummy_section{
+    display: flex;
+    padding: 5%;
+}
+.yum-1{
+    width: 50%;
+    background-size: cover;
+}
+#fast-food-notes{
+   margin-left: 50px; 
+   width: 30%;
+
+}
+#dinner p, #lunch p,#breakfast p{
+    font-size: 1em;
+    position: absolute;
+    padding-top: 45px;
+    margin-left: 130px;
+}
+   
