@@ -72,10 +72,12 @@ div{
     display: flex;
     padding:5%;
     margin-left: 200px;
+    
 }
 .yum-1{
-    border: 20px solid rgb(255, 253, 253);
-    box-shadow: 2px 2px 5px grey
+    border: 20px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px grey;
+    font-size: 0;
 }
 #fast-food-notes{
 padding-left: 5%;
@@ -89,17 +91,36 @@ h2{
 h3{
 font-weight: 50;
 font-size: 90%;
+
 }
 h4{
-    color: rgb(250, 95, 24);
+    color: #f15a29;
     font-weight: 100;
-    border: 1px solid rgb(240, 81, 8);
+    border: 1px solid #f15a29;
     padding-right: 30px;
 }
 #_gallery p{
     color: #f15a29;
     font-weight: 700;
+    border: 1px solid #f15a29;
+    width: 170px;
+    box-shadow: 1px 1px 1px #f15a29;
 }
 ._tag{
     font-size: xx-large;
+}
+/*to remove*/
+div{
+    border: 1px dashed green;
+}
+#about-liquids{
+    display: flex;
+}
+.fast-food-drinks-notes{
+    width: 50%;
+}
+#yummy_drinks{
+    border: 20px solid white;
+    box-shadow: 2px 2px 5px grey;
+    font-size: 0;
 }
