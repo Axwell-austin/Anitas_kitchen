@@ -208,10 +208,11 @@ div{
     text-align: center;
     margin-left: 95px;
     border: 1px solid white;
-    box-shadow: 2px 2px 5px 0 slategrey;
+    box-shadow: 2px 2px 5px slategrey;
 }
 .-section{
     width: 400%;
+    box-shadow:2px 2px 5px slategrey;
 
 }
 #side{
@@ -233,6 +234,9 @@ font-size: 20px;
 }.feedback p{
     color: black;
 }
+.feedback{
+    box-shadow:2px 2px 5px  slategrey;
+}
 /*to remove*/
 div{
     border: 1px dashed green;
@@ -246,8 +250,9 @@ div{
 #subscriptions{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 48%;
     margin-left: 350px;
+    text-align: center;
 
 }
 #tomatoes-page p{
@@ -260,15 +265,16 @@ div{
 .grey{
     background-color: slategrey;
     opacity: 0.5;
-width: 350px;
+    width:130px;
+    padding-right: 40%;
+    margin-right: 40px;
+    border-radius: 5px;
 
-}
-.grey p{
-text-align: left;
 }
 .orange{
     background-color: #f15a29;
     width: 150px;
+    border-radius: 5px;
 }
 .orange p{
     text-align: center;
@@ -297,7 +303,9 @@ text-align: left;
     text-align: center;
 }
 #tomatoes-page h2{
-    font-size: 30px;
+    font-size: 33px;
+    font-weight: 900;
+ 
 }
 #krabby-patty p{
     font-size: 20px;
