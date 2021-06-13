@@ -233,3 +233,56 @@ font-size: 20px;
 }.feedback p{
     color: black;
 }
+/*to remove*/
+div{
+    border: 1px dashed green;
+}
+#tomatoes-page{
+    align-items: center;
+    background-image: url(./img/subscribe.jpg);
+    color: white;
+}
+#subscriptions{
+    display: flex;
+justify-content: center;
+}
+#tomatoes-page p{
+    text-align: center;
+}
+#subscriptions p{
+    text-align: center;
+}
+.grey{
+    background-color: slategrey;
+    opacity: 0.5;
+    width: 350px;
+}
+.grey p{
+text-align: left;
+}
+.orange{
+    background-color: #f15a29;
+    width: 150px;
+}
+.orange p{
+    text-align: center;
+}
+#orange-page{
+    background-color: #f15a29;
+}
+#krabby-patty{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    margin-left: 45%;
+}
+.tags{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   width: 10%;
+   margin-left: 45%;
+}
+#orange-page p{
+    text-align: center;
+}
