@@ -44,17 +44,20 @@ div{
     width: 25%;
     background-image:url(./img/breakfast.jpg);
     background-size: cover;
+    padding-top: 5%;
 }
 #Lunch{
     width: 25%;
     background-image: url(./img/lunch.jpg);
     background-size: cover;
     opacity: 0.5;
+    padding-top: 5%;
 }
 #Dinner{
     width: 25%;
     background-image: url(./img/dinner.jpg);
     background-size: cover;
+    padding-top: 5%;
 }
 .happy-hour{
     background-color: rgb(212, 210, 207);
@@ -188,4 +191,42 @@ padding: 15px;
 #scroll-arrow{
     font-size: 70px;
     text-align: center;
+}
+/*to remove*/
+div{
+    border: 1px dashed green;
+}
+#customers-section{
+    display: flex;
+    width: 80%;
+    padding: 4%;
+    text-align: center;
+    margin-left: 95px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 5px 0 slategrey;
+}
+.-section{
+    width: 400%;
+
+}
+#customers-section p{
+ color: black;
+ justify-content: space-around; 
+}
+#side-arrow p{
+color: #f15a29;
+font-size: 20px;
+}
+.customers-pics{
+    display: flex;
+  justify-content: center;
+}
+.-section h1{
+    color: #f15a29;
+}
+.-section h2{
+    color: #f15a29;
+}
+.feedback{
+    color: #f15a29;
 }
