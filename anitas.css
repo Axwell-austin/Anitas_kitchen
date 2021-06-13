@@ -149,10 +149,43 @@ padding: 170px;
 }
 .f{
     width: 25%;
+    background-color: white;
 }
 .d{
 width: 25%;
+background-color: darkgray;
+
 }
 .pics{
     display: flex;
+    background-color: white;
+    padding: 7%;
+    justify-content: space-around;
+}
+.pics span{
+    text-align: center;
+    color:#f15a29;
+}
+.f p{
+    color: #f15a29;
+
+}
+.d p{
+color: black;
+}
+.pics p{
+    color: #f15a29;
+}
+.pic1{
+padding: 15px;
+}
+.pic2{
+    padding: 15px;
+}
+.pic3{
+    padding: 15px;
+}
+#scroll-arrow{
+    font-size: 70px;
+    text-align: center;
 }
