@@ -3,6 +3,7 @@ height:400px;
 width: 100%;
 background-size: cover;
 background-repeat: no-repeat;
+padding: 60px;
 }
 .nav div{
     height: 2px;
@@ -11,27 +12,24 @@ background-repeat: no-repeat;
     border-radius: 25px;
 }
 .nav{
-    width: 40px;
+    width: 60px;
    display: block;
    margin-left: 50px;
 }
+
 #top img{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 #middle p{
-    color: white;
     text-align: center;
     font-weight: 100;
 }
 #top p{
     color: white;
     text-align: center;
-}
-/*to remove*/
-div{
-    border: 1px dashed green;
+    font-size: 30px;
 }
 #middle{
     display: flex;
@@ -41,14 +39,13 @@ div{
     width: 25%;
     flex-direction: column;
 }
-#happy_moments p{
-    color: black;
-}
 #breakfast{
     width: 25%;
     background-image:url(./img/breakfast.jpg);
     background-size: cover;
     padding-top: 5%;
+    color: white;
+    font-size: 20px;
 }
 #Lunch{
     width: 25%;
@@ -56,24 +53,28 @@ div{
     background-size: cover;
     opacity: 0.5;
     padding-top: 5%;
+    color: white;
+    font-size: 20px;
 }
 #Dinner{
     width: 25%;
     background-image: url(./img/dinner.jpg);
     background-size: cover;
     padding-top: 5%;
+    color: white;
+    font-size: 20px;
 }
 .happy-hour{
-    background-color: rgb(212, 210, 207);
-    height: 100px;    
+    background-color: white; 
+    color: rgb(110, 107, 107); 
+    font-size: 30px;
 }
 .party-time{
 background-color: rgb(240, 81, 8);
-height: 100px;
-}
-/*to remove*/
-div{
-    border: 1px dashed green;
+color:white;
+font-size: 30px;
+padding-top: 10px;
+height: 48%;
 }
 #yummy_section{
     display: flex;
@@ -116,10 +117,6 @@ h4{
 ._tag{
     font-size: xx-large;
 }
-/*to remove*/
-div{
-    border: 1px dashed green;
-}
 #about-liquids{
     display: flex;
 }
@@ -139,11 +136,6 @@ padding-right: 3%;
 .fast-food-drinks-notes p{
     margin-left: 75%;
 }
-/*to remove*/
-div{
-    border: 1px dashed green;
-}
-
 #box_fruit{
 background-image: url(./img/foodsBg.jpg);
 background-size: cover;
@@ -153,6 +145,7 @@ padding: 170px;
     display: flex;
     justify-content: space-around;
     width: 100%;
+    text-align: center;
 }
 .f{
     width: 25%;
@@ -197,10 +190,6 @@ padding: 15px;
     font-size: 70px;
     text-align: center;
 }
-/*to remove*/
-div{
-    border: 1px dashed green;
-}
 #customers-section{
     display: flex;
     width: 80%;
@@ -236,10 +225,6 @@ font-size: 20px;
 }
 .feedback{
     box-shadow:2px 2px 5px  slategrey;
-}
-/*to remove*/
-div{
-    border: 1px dashed green;
 }
 #tomatoes-page{
     background-image: url(./img/subscribe.jpg);
