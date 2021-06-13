@@ -136,15 +136,23 @@ padding-right: 3%;
 div{
     border: 1px dashed green;
 }
-#menu p{
-color: black;
-display: flex;
-}
+
 #box_fruit{
 background-image: url(./img/foodsBg.jpg);
 background-size: cover;
 padding: 170px;
 }
-#main-line{
-    background-color: white;
+#menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.f{
+    width: 25%;
+}
+.d{
+width: 25%;
+}
+.pics{
+    display: flex;
 }
